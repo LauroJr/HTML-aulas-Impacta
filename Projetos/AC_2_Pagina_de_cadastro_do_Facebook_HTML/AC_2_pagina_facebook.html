@@ -1,0 +1,98 @@
+<!-- Nome: Lauro Mendes do Amaral Junior
+  lauro.junior@aluno.faculdadeimpacta.com.br -->
+<!-- COMENTÁRIOS -->
+
+<!DOCTYPE html>  <!-- Ao iniciar um arquivo novo, tecle SHIFT+! e enter ou HTML:5. Isso irá criar a base inicial do HTML-->
+<html lang="pt-br"> <!-- pt-br é a configuração do site de acordo com o país-->
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário do Facebook</title> <!-- Irá aparecer na ABA superior/ navegador -->
+</head>
+<body> <!--faça suas inserções dentro dos body - ABRIR-->
+    <form action="/" method="POST">  <!--form significa formulário-->
+        <h1>Abra uma conta</h1>
+        <h2>É rápido e fácil.</h2>
+        <input type="text" name="nome" placeholder="Nome">
+        <input type="text" name="sobrenome" placeholder="Sobrenome">
+        <input type="text" name="celEmail" placeholder="Celular ou Email">
+        <input type="password" name="senha" placeholder="Nova Senha">
+        <label> Data de Nascimento </label>
+        <select name="dia">
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="3">04</option>
+            <option value="3">05</option>
+            <option value="3">06</option>
+            <option value="3">07</option>
+            <option value="3">08</option>
+            <option value="3">09</option>
+            <option value="3">10</option>
+            <option value="3">11</option>
+            <option value="3">12</option>
+            <option value="3">13</option>
+            <option value="3">14</option>
+            <option value="3">15</option>
+            <option value="3">16</option>
+            <option value="3">17</option>
+            <option value="3">18</option>
+            <option value="3">19</option>
+            <option value="3">20</option>
+            <option value="3">21</option>
+            <option value="3">22</option>
+            <option value="3">23</option>
+            <option value="3">24</option>
+            <option value="3">25</option>
+            <option value="3">26</option>
+            <option value="3">27</option>
+            <option value="3">28</option>
+            <option value="3">29</option>
+            <option value="3">30</option>
+        </select>
+        <select name="mes">
+            <option value="jan">Janeiro</option>
+            <option value="fev">Fevereiro</option>
+            <option value="mar">Março</option>
+            <option value="abr">Abril</option>
+            <option value="mai">Maio</option>
+            <option value="jun">Junho</option>
+            <option value="jul">Julho</option>
+            <option value="ago">Agosto</option>
+            <option value="set">Setembro</option>
+            <option value="out">Outubro</option>
+            <option value="nov">Novembro</option>
+            <option value="dez">Dezembro</option>
+        </select>
+        <select name="ano">
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1993">1994</option>
+            <option value="1993">1995</option>
+            <option value="1993">1996</option>
+            <option value="1993">1997</option>
+            <option value="1993">1998</option>
+            <option value="1993">1999</option>
+            <option value="1993">2000</option>
+        </select>
+        <input type="radio" name="genero" id="genFem" value="F">
+        <label for="genFem">Feminino</label>
+        <input type="radio" name="genero" id="genMas" value="M">
+        <label for="genMas">Masculino</label>
+        <input type="radio" name="genero" id="genPer" value="P">
+        <label for="genPer">Personalizado</label>
+
+        <p>
+            Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+        </p>
+        <button> Cadastre-se </button>
+    </form>
+</body> <!-- FECHAR -->
+</html>
+
+<!-- Para testar se os valores estão indo corretamente, faça o seguinte:
+Deixe uma cópia do arquivo 'serv.py' na mesma pasta do arquivo HTML. Abra
+o terminal do VSC, e entre na pasta do arquivo HTML, e digite 'Python serv.py' e
+dê enter. Abra uma aba em seu navegar 'localhost 8000', entre no seu site, escolha
+o que deseja, envie com o botão enviar do site, e vá para sua pagina escolher o 
+arquivo. Volte no terminal para ver se os valores estão de acordo-->
